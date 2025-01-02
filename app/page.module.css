@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Source+Code+Pro&display=swap&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 .page {
-  background-image: url("https://res.cloudinary.com/martacloud/image/upload/v1735737836/fondo1_zlakd1.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
   min-height: 100svh;
   font-family: "Montserrat", serif;
   font-optical-sizing: auto;
