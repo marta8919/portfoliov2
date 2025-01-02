@@ -1,50 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do&family=Source+Code+Pro&display=swap&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 .page {
   background-image: url("https://res.cloudinary.com/martacloud/image/upload/v1735737836/fondo1_zlakd1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100svh;
-  font-family: var(--font-geist-sans);
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify;
+}
+
+.card {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(222, 222, 242, 0.7);
+  box-shadow: 10px 10px 5px rgb(0, 0, 0, 0.25);
 }
 
 .main {
   display: grid;
   grid-template-areas:
-    "header header header about about tech"
+    "header header about about about tech"
     "ex ex rec rec contact contact";
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   min-height: inherit;
   gap: 30px;
-  padding: 80px;
+  padding: 40px 80px;
 }
 
 .header {
-  border: 1px solid black;
   grid-area: header;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  line-height: 70px;
+}
+
+.header h1 {
+  font-family: "Nothing You Could Do", serif;
+  font-weight: 900;
+  font-style: bolder;
+  font-size: 54px;
+}
+
+.header h2 {
+  font-family: "Source Code Pro", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 31px;
 }
 
 .about {
-  border: 1px solid black;
   grid-area: about;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border-radius: 10px;
+  padding: 40px;
+  background-color: rgb(222, 222, 242, 0.7);
+  box-shadow: 10px 10px 5px rgb(0, 0, 0, 0.25);
+  position: relative;
+  overflow: hidden;
+}
+
+.pic {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 .techstack {
-  border: 1px solid black;
   grid-area: tech;
+  border-radius: 10px;
+  padding: 40px;
+  background-color: rgb(255, 255, 255, 0.7);
+  box-shadow: 10px 10px 5px rgb(0, 0, 0, 0.25);
+  text-align: justify;
+}
+
+.techstack ul {
+  list-style: square;
 }
 
 .experience {
-  border: 1px solid black;
   grid-area: ex;
+  border-radius: 10px;
+  padding: 40px;
+  background-color: rgb(222, 222, 242, 0.7);
+  box-shadow: 10px 10px 5px rgb(0, 0, 0, 0.25);
+  position: relative;
 }
 
 .recommendations {
-  border: 1px solid black;
   grid-area: rec;
+  border-radius: 10px;
+  padding: 40px;
+  background-color: rgb(255, 255, 255, 0.7);
+  box-shadow: 10px 10px 5px rgb(0, 0, 0, 0.25);
+  position: relative;
 }
 
 .contact {
-  border: 1px solid black;
   grid-area: contact;
+  border-radius: 10px;
+  padding: 40px;
+  background-color: rgb(222, 222, 242, 0.7);
+  box-shadow: 10px 10px 5px rgb(0, 0, 0, 0.25);
+}
+
+.iconsWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.iconsWrapper svg {
+  width: 60px;
+  height: auto;
+}
+
+.iconsWrapper svg:hover {
+  cursor: pointer;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+  background-color: rgb(250, 230, 237, 0.5);
+  box-shadow: 5px 5px 2px rgb(0, 0, 0, 0.25);
+  font-weight: 900;
+  letter-spacing: 3px;
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+}
+
+.btn:hover {
+  cursor: pointer;
 }
 
 @media (max-width: 1100px) {
