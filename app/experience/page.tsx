@@ -28,7 +28,12 @@ export default function Page() {
         </div>
         <div className={styles.experienceWrapper}>
           <div className={styles.experience}>
-            <h3>Software engineer @Grover</h3>
+            <h3>
+              Software engineer{" "}
+              <Link target="_blank" href="https://grover.com">
+                @Grover
+              </Link>
+            </h3>
             <p>August 2022 - February 2024</p>
             <p>Münich, Germany (Remote)</p>
             <ul>
@@ -89,7 +94,12 @@ export default function Page() {
 
         <div className={styles.experienceWrapper}>
           <div className={styles.experience}>
-            <h3>Software engineer @Voiceline</h3>
+            <h3>
+              Software engineer{" "}
+              <Link href="https://getvoiceline.com" target="_blank">
+                @Voiceline
+              </Link>
+            </h3>
             <p>April 2021 - September 2022</p>
             <p>Münich, Germany (on site)</p>
             <ul>

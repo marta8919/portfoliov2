@@ -43,6 +43,8 @@ export default function Home() {
             <ul>
               <li>Javascript</li>
               <li>Typescript</li>
+              <li>HTML</li>
+              <li>CSS</li>
               <li>React</li>
               <li>NextJS</li>
               <li>Jest</li>
@@ -73,7 +75,7 @@ export default function Home() {
                 <strong>
                   Software Engineer{" "}
                   <Link href={"https://getvoiceline.com"}>@Voiceline</Link>
-                </strong>
+                </strong>{" "}
                 (April 2021 - September 2022)
               </p>
             </div>
