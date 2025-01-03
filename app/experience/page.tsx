@@ -8,16 +8,22 @@ export default function Page() {
         <h1 className={styles.header}>Professional Experience</h1>
         <div className={styles.ctaGroup}>
           <Link href="/">
-            <button className={styles.btn}>go Home</button>
+            <button className={styles.btn}>home</button>
           </Link>
           <Link href="/recommendations">
-            <button className={styles.btn}>Checkout recommendations!</button>
+            <button className={styles.btn}>recommendations</button>
           </Link>
           <Link
             href="https://www.canva.com/design/DAGaIYrvgPs/MnvxtLsc7F829gBf3PPXcQ/view?utm_content=DAGaIYrvgPs&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h84378adcc1"
             target="_blank"
           >
-            <button className={styles.btn}>Read CV</button>
+            <button className={styles.btn}>cv</button>
+          </Link>
+          <Link
+            href={"https://linkedin.com/in/martagilabertgu"}
+            target="_blank"
+          >
+            <button className={styles.btn}>linkedIn</button>
           </Link>
         </div>
         <div className={styles.experienceWrapper}>
@@ -78,6 +84,8 @@ export default function Page() {
             </p>
           </div>
         </div>
+
+        <hr className={styles.divider} />
 
         <div className={styles.experienceWrapper}>
           <div className={styles.experience}>

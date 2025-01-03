@@ -93,7 +93,7 @@ export default function Home() {
             <p>
               <strong>Damla Kockar - Frontend Developer</strong> Marta and I
               worked very closely during Ironhacks full stack web development
-              bootcamp. She is a very smart and hardworking[...]
+              bootcamp[...]
             </p>
             <Link href="/recommendations">
               <button className={styles.btn}>Read more</button>
