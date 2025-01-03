@@ -1,9 +1,9 @@
 import Link from "next/link";
 import styles from "./page.module.css";
 import Image from "next/image";
-import GithubIcon from "@/icons/GithubIcon";
-import LinkedInIcon from "@/icons/LinkedInIcon";
-import EmailIcon from "@/icons/EmailIcon";
+import GithubIcon from "@/components/icons/GithubIcon";
+import LinkedInIcon from "@/components/icons/LinkedInIcon";
+import EmailIcon from "@/components/icons/EmailIcon";
 import { PageWrapper } from "@/components/PageWrapper";
 
 export default function Home() {
