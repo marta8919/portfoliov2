@@ -1,6 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 import styles from "./page.module.css";
-import Image from "next/image";
 import GithubIcon from "@/components/icons/GithubIcon";
 import LinkedInIcon from "@/components/icons/LinkedInIcon";
 import EmailIcon from "@/components/icons/EmailIcon";
@@ -28,7 +28,7 @@ export default function Home() {
               <br />
               Currently learning Swedish 🇸🇪 and UX/UI design 👩‍💻.
             </p>
-            <Image
+            <img
               src={
                 "https://res.cloudinary.com/martacloud/image/upload/v1735840376/Ilustracio%CC%81n_sin_ti%CC%81tulo_2_bqhrcn.png"
               }
