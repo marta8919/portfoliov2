@@ -63,7 +63,7 @@ export default function Home() {
                   Software Engineer{" "}
                   <Link href={"https://grover.com"}>@Grover</Link>
                 </strong>{" "}
-                (August 2022 - February 2025)
+                (August 2022 - February 2024)
               </p>
               <p>
                 Work closely with cross-functional teams, including Product

@@ -34,7 +34,7 @@ export default function Page() {
                 @Grover
               </Link>
             </h3>
-            <p>August 2022 - February 2025</p>
+            <p>August 2022 - February 2024</p>
             <p>Münich, Germany (Remote)</p>
             <ul>
               <li>
