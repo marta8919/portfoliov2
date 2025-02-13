@@ -100,7 +100,7 @@ export default function Page() {
                 @Voiceline
               </Link>
             </h3>
-            <p>April 2021 - September 2022</p>
+            <p>April 2021 - July 2022</p>
             <p>Münich, Germany (on site)</p>
             <ul>
               <li>Joined as the first employee on a very early start-up.</li>
