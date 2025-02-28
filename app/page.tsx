@@ -18,15 +18,17 @@ export default function Home() {
           <div className={styles.about}>
             <p>
               My experience primarily revolves around working with TypeScript
-              and frameworks like React and Next.js to develop seamless,
-              user-friendly interfaces. User experience is at the heart of my
-              work, guiding both the creation of new solutions and the
-              implementation of existing ones. Collaboration is at the core of
-              my work style; I thrive in team environments, enjoy solving
-              technical and business challenges together, and celebrate shared
-              and individual successes.
+              and frameworks such as React and Next.js to develop seamless,
+              user-friendly interfaces.
               <br />
-              Currently learning Swedish 🇸🇪 and UX/UI design 👩‍💻.
+              <br /> User experience is at the heart of my work, guiding both
+              the creation of new solutions and the implementation of existing
+              ones. Collaboration is at the core of my work style; I thrive in
+              team environments, enjoy solving technical and business challenges
+              together, and celebrate shared and individual successes.
+              <br />
+              <br />
+              Currently learning Swedish 🇸🇪 ,UX/UI design and Angular 👩‍💻.
             </p>
             <img
               src={
@@ -40,18 +42,26 @@ export default function Home() {
           </div>
           <div className={styles.techstack}>
             <h3>Tech stack:</h3>
+            <p>Frontend:</p>
             <ul>
               <li>Javascript</li>
               <li>Typescript</li>
-              <li>HTML</li>
-              <li>CSS</li>
+            </ul>
+            <p>Frameworks:</p>
+            <ul>
               <li>React</li>
-              <li>NextJS</li>
+              <li>Next.js</li>
+            </ul>
+            <p>Testing:</p>
+            <ul>
               <li>Jest</li>
-              <li>Styled-components</li>
-              <li>CSS Modules</li>
-              <li>GraphQL</li>
+              <li>Cypress</li>
+            </ul>
+            <p>Backend & APIs:</p>
+            <ul>
               <li>NestJS</li>
+              <li>GraphQL</li>
+              <li>RESTful API</li>
             </ul>
           </div>
 
@@ -85,19 +95,21 @@ export default function Home() {
           </div>
 
           <div className={styles.recommendations}>
-            <h3>Recommendations:</h3>
+            <h3>Projects:</h3>
             <p>
-              <strong>Leda Wolf - Software Engineer:</strong> Marta’s path has
-              been incredible to watch, she is highly intelligent, curious, and
-              persistent[...]
+              <strong>Code quizzer</strong>- NextJs web-app deployed with vercel
+              to perform web development quizzes and study for interviews with
+              flashcards.
             </p>
-
             <p>
-              <strong>Damla Kockar - Frontend Developer</strong> Marta and I
-              worked very closely during Ironhacks full stack web development
-              bootcamp[...]
+              <strong>Portfolio</strong>- Build with NextJs, CSS Modules and
+              deployed with Firebase.
             </p>
-            <Link href="/recommendations">
+            <p>
+              <strong>Veggie wars</strong>- First ever project, build with
+              Vanilla Javascript.
+            </p>
+            <Link href="/projects">
               <button className={styles.btn}>Read more</button>
             </Link>
           </div>

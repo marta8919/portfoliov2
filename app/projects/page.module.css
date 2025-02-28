@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap&family=Nothing+You+Could+Do");
+
+.page {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 40px 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  max-width: 1300px;
+}
+
+.header {
+  padding: 20px;
+  font-family: "Nothing You Could Do", serif;
+  font-weight: 900;
+  font-size: 54px;
+}
+
+.projects {
+  grid-area: project;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: rgb(250, 230, 237, 0.5);
+  box-shadow: 5px 5px 2px rgb(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.projects ul {
+  list-style: square;
+  padding-left: 15px;
+}
+
+.info {
+  grid-area: info;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: rgb(250, 230, 237, 0.5);
+  box-shadow: 5px 5px 2px rgb(0, 0, 0, 0.25);
+  text-align: center;
+  align-items: center;
+}
+
+.info img {
+  width: 400px;
+  height: auto;
+}
+
+.projectsWrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: "info project";
+  gap: 20px;
+}
+
+.projectsWrapperInverse {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: "project info";
+  gap: 20px;
+}
+
+.ctaGroup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 7px;
+  border: none;
+  background-color: rgb(250, 230, 237, 0.5);
+  box-shadow: 5px 5px 2px rgb(0, 0, 0, 0.25);
+  font-weight: 900;
+  letter-spacing: 3px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(250, 230, 237);
+  box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.25);
+}
+
+.linkGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.linkGroup a:hover {
+  text-decoration: underline;
+}
+
+.linkGroup a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 5px;
+  text-transform: capitalize;
+}
+
+.infoTable {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-areas: "links keywords";
+  gap: 30px;
+}
+
+.keywordsArea {
+  grid-area: keywords;
+  overflow-wrap: break-word;
+}
+
+.keywordsGroup {
+  display: flex;
+  gap: 5px;
+  width: fit-content;
+  overflow-wrap: break-word;
+  max-width: 100%;
+}
+
+.linksArea {
+  grid-area: links;
+}
+
+.keyword {
+  background-color: rgb(250, 230, 237);
+  border-radius: 6px;
+  padding: 5px;
+  width: fit-content;
+  height: fit-content;
+}
+@media (max-width: 1130px) {
+  /* .info img {
+    width: 200px;
+  } */
+}
+
+@media (max-width: 750px) {
+  .header {
+    padding: unset;
+    text-align: center;
+  }
+
+  .projectsWrapper {
+    grid-template-columns: 1fr;
+    grid-template-areas: "info" "project";
+  }
+
+  .projectsWrapperInverse {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "info"
+      "project";
+  }
+}
+
+@media (max-width: 500px) {
+  .page {
+    padding: 50px 30px;
+  }
+
+  .info img {
+    display: none;
+  }
+
+  .info {
+    display: none;
+  }
+  .header {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .projectsWrapper {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    grid-template-areas:
+      "info"
+      "project";
+  }
+  .ctaGroup {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}

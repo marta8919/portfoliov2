@@ -11,6 +11,9 @@ export default function Page() {
           <Link href="/">
             <button className={styles.btn}>home</button>
           </Link>
+          <Link href="/projects">
+            <button className={styles.btn}>projects</button>
+          </Link>
           <Link href="/experience">
             <button className={styles.btn}>experience</button>
           </Link>

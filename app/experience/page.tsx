@@ -10,6 +10,9 @@ export default function Page() {
           <Link href="/">
             <button className={styles.btn}>home</button>
           </Link>
+          <Link href="/projects">
+            <button className={styles.btn}>projects</button>
+          </Link>
           <Link href="/recommendations">
             <button className={styles.btn}>recommendations</button>
           </Link>
