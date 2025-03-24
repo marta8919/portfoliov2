@@ -13,13 +13,13 @@ export default function Home() {
         <main className={styles.main}>
           <div className={styles.header}>
             <h1>Marta Gilabert</h1>
-            <h2>Frontend developer</h2>
+            <h2>Software Developer</h2>
           </div>
           <div className={styles.about}>
             <p>
               My experience primarily revolves around working with TypeScript
-              and frameworks such as React and Next.js to develop seamless,
-              user-friendly interfaces.
+              and frameworks such as React, Next.js and Angular to develop
+              seamless, user-friendly interfaces.
               <br />
               <br /> User experience is at the heart of my work, guiding both
               the creation of new solutions and the implementation of existing
@@ -28,7 +28,7 @@ export default function Home() {
               together, and celebrate shared and individual successes.
               <br />
               <br />
-              Currently learning Swedish 🇸🇪 ,UX/UI design and Angular 👩‍💻.
+              Currently learning Swedish 🇸🇪 and UX/UI Design 👩‍💻.
             </p>
             <img
               src={
@@ -51,6 +51,7 @@ export default function Home() {
             <ul>
               <li>React</li>
               <li>Next.js</li>
+              <li>Angular</li>
             </ul>
             <p>Testing:</p>
             <ul>
@@ -67,6 +68,13 @@ export default function Home() {
 
           <div className={styles.experience}>
             <h3>Professional experience:</h3>
+            <div>
+              <p>
+                <strong>Software Engineer @Private</strong> (June 2024 -
+                Currently)
+              </p>
+              <p>Work on Frontend tickets[...]</p>
+            </div>
             <div>
               <p>
                 <strong>
@@ -97,13 +105,14 @@ export default function Home() {
           <div className={styles.recommendations}>
             <h3>Projects:</h3>
             <p>
+              <strong>Timer App</strong>- Angular web-app deployed with vercel
+              that enables the user to create a countdown timer to a date set by
+              the user.
+            </p>
+            <p>
               <strong>Code quizzer</strong>- NextJs web-app deployed with vercel
               to perform web development quizzes and study for interviews with
               flashcards.
-            </p>
-            <p>
-              <strong>Portfolio</strong>- Build with NextJs, CSS Modules and
-              deployed with Firebase.
             </p>
             <p>
               <strong>Veggie wars</strong>- First ever project, build with

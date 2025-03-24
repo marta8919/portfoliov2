@@ -29,6 +29,46 @@ export default function Page() {
             <button className={styles.btn}>linkedIn</button>
           </Link>
         </div>
+
+        <div className={styles.experienceWrapper}>
+          <div className={styles.experience}>
+            <h3>Software engineer @Private</h3>
+            <p>June 2024 - Currently</p>
+            <p>Altersbruk, Sweden (Remote)</p>
+            <ul>
+              <li>Joined a project on a very early stages.</li>
+              <li>Work primarily on Frontend tickets.</li>
+              <li>
+                Upholding code quality with manual testing and unit testing.
+              </li>
+              <li>Designing mock-ups and final designs with Figma.</li>
+              <li>Running user research interviews.</li>
+              <li>Ideation of features.</li>
+            </ul>
+          </div>
+          <div className={styles.techstack}>
+            <h4>Tech stack</h4>
+            <ul>
+              <li>Typescript</li>
+              <li>NextJs</li>
+              <li>React</li>
+              <li>Jest</li>
+              <li>Cypress</li>
+              <li>Styled-components</li>
+              <li>React-testing-library</li>
+            </ul>
+          </div>
+          <div className={styles.info}>
+            <h4>Reason to change</h4>
+            <p>
+              Currently developing a private project that cannot be shared.
+              Would like to join a larger team.
+            </p>
+          </div>
+        </div>
+
+        <hr className={styles.divider} />
+
         <div className={styles.experienceWrapper}>
           <div className={styles.experience}>
             <h3>

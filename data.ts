@@ -1,6 +1,21 @@
 export const content = {
   projects: [
     {
+      title: "Timer App",
+      description:
+        "Web application build with Angular. It renders a form that enables the user to create a countdown to a certain date. The app will render a countdown that will be updated each second.",
+      image:
+        "https://res.cloudinary.com/martacloud/image/upload/v1742830666/Captura_de_pantalla_2025-03-24_a_las_16.37.40_okylbq.png",
+      links: [
+        { text: "demo", link: "https://timer-angular-app.vercel.app/" },
+        {
+          text: "github",
+          link: "https://github.com/marta8919/timer-angular-app",
+        },
+      ],
+      keywords: ["typescript", "angular", "vercel", "responsive design"],
+    },
+    {
       title: "Code quizzer",
       description:
         "Web application designed to help frontend developers prepare for technical interviews. Built with Next.js, Typescript and Framer Motion and deployed with Vercel. CodeQuizzer offers an engaging and interactive platform to test your knowledge with two modalities, quiz or flash cards.",
