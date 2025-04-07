@@ -92,9 +92,10 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  justify-content: space-between;
 }
 
-.recommendations {
+.projects {
   grid-area: rec;
   border-radius: 10px;
   padding: 40px;
@@ -103,6 +104,7 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  justify-content: space-between;
 }
 
 .contact {

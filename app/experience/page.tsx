@@ -38,9 +38,6 @@ export default function Page() {
             <ul>
               <li>Joined a project on a very early stages.</li>
               <li>Work primarily on Frontend tickets.</li>
-              <li>
-                Upholding code quality with manual testing and unit testing.
-              </li>
               <li>Designing mock-ups and final designs with Figma.</li>
               <li>Running user research interviews.</li>
               <li>Ideation of features.</li>
@@ -52,8 +49,6 @@ export default function Page() {
               <li>Typescript</li>
               <li>NextJs</li>
               <li>React</li>
-              <li>Jest</li>
-              <li>Cypress</li>
               <li>Styled-components</li>
               <li>React-testing-library</li>
             </ul>

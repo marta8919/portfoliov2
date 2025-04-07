@@ -102,7 +102,7 @@ export default function Home() {
             </Link>
           </div>
 
-          <div className={styles.recommendations}>
+          <div className={styles.projects}>
             <h3>Projects:</h3>
             <p>
               <strong>Timer App</strong>- Angular web-app deployed with vercel
